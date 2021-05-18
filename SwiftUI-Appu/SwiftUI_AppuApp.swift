@@ -18,7 +18,8 @@ struct SwiftUI_AppuApp: App {
         WindowGroup {
             //            ContentView()
             //            LoginView()
-            ScreenNavView()
+//            ScreenNavView()
+            PostsList()     //  making an API call
         }
     }
 }

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3821B24F264EECFB0070D03B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3821B24E264EECFB0070D03B /* LoginView.swift */; };
 		3867AA172653CD3F00579810 /* ScreenNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867AA162653CD3F00579810 /* ScreenNavView.swift */; };
+		3867AA1B2654111300579810 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867AA1A2654111300579810 /* Data.swift */; };
+		3867AA1F265412E900579810 /* PostsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867AA1E265412E900579810 /* PostsList.swift */; };
 		38BED0D1262C92F3006D0C21 /* SwiftUI_AppuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BED0D0262C92F3006D0C21 /* SwiftUI_AppuApp.swift */; };
 		38BED0D3262C92F3006D0C21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BED0D2262C92F3006D0C21 /* ContentView.swift */; };
 		38BED0D5262C92F6006D0C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BED0D4262C92F6006D0C21 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		3821B24E264EECFB0070D03B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3867AA162653CD3F00579810 /* ScreenNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenNavView.swift; sourceTree = "<group>"; };
+		3867AA1A2654111300579810 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3867AA1E265412E900579810 /* PostsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsList.swift; sourceTree = "<group>"; };
 		38BED0CD262C92F3006D0C21 /* SwiftUI-Appu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Appu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BED0D0262C92F3006D0C21 /* SwiftUI_AppuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AppuApp.swift; sourceTree = "<group>"; };
 		38BED0D2262C92F3006D0C21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3867AA19265410EC00579810 /* ApiCall-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3867AA1A2654111300579810 /* Data.swift */,
+				3867AA1E265412E900579810 /* PostsList.swift */,
+			);
+			path = "ApiCall-Demo";
+			sourceTree = "<group>";
+		};
 		38BED0C4262C92F3006D0C21 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		38BED0CF262C92F3006D0C21 /* SwiftUI-Appu */ = {
 			isa = PBXGroup;
 			children = (
+				3867AA19265410EC00579810 /* ApiCall-Demo */,
 				38BED0D0262C92F3006D0C21 /* SwiftUI_AppuApp.swift */,
 				38BED0D2262C92F3006D0C21 /* ContentView.swift */,
 				38DB234E264198B000CCBF3B /* WeatherButton.swift */,
@@ -148,8 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				38BED0D3262C92F3006D0C21 /* ContentView.swift in Sources */,
+				3867AA1B2654111300579810 /* Data.swift in Sources */,
 				38BED0D1262C92F3006D0C21 /* SwiftUI_AppuApp.swift in Sources */,
 				3821B24F264EECFB0070D03B /* LoginView.swift in Sources */,
+				3867AA1F265412E900579810 /* PostsList.swift in Sources */,
 				3867AA172653CD3F00579810 /* ScreenNavView.swift in Sources */,
 				38DB234F264198B000CCBF3B /* WeatherButton.swift in Sources */,
 			);
